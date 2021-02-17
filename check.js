@@ -2,7 +2,7 @@ let text = 'JS, ECMAScript, esm6 peuvent être considérés comme des alias de J
 let word = 'Javascript'
 
 if(text.includes(word)) {
-  console.log(`This text includes the word ${word}`)
+  console.log(`This text include the word ${word}`)
 } else {
   console.log(`This text does not include the word ${word} `)
 }
