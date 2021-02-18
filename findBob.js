@@ -6,7 +6,7 @@ let clean = str.trim()
 
 let name1 = 'bob'
 
-if(str.includes(name1)) {
+if(clean.includes(name1)) {
   console.log(`This text include ${name1} `)
 } else {
   console.log(`This text does not include ${name1} `)

@@ -1,6 +1,6 @@
 let str =
-  '\n\n\t\t    AlIcE eT bOb EsSaYeNt De CoMmUnIqUeR sEcReTeMeNt, MaIs EvE vEiLlE  \n\n '.toLowerCase()
+  '\n\n\t\t    AlIcE eT bOb EsSaYeNt De CoMmUnIqUeR sEcReTeMeNt, MaIs EvE vEiLlE  \n\n '
 
 let clean = str.trim()
-    
-    console.log(clean)
+let newClean = clean.toLowerCase()    
+    console.log(newClean)
